@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+
+.col-sm-4{
+    background-color: aliceblue;
+    box-shadow: 10 50 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    padding: 10px 0;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.in-stock{
+    background-color: green;
+    color: white;
+}
+
+.out-of-stock{
+    background-color: red;
+    color: white;
+}
+
+input{
+    padding: 20px;
+    width: 70%;
+    margin-bottom: 20px;
+}
